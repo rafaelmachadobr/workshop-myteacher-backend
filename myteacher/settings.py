@@ -32,8 +32,6 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     'web-production-9dd7.up.railway.app',
 ]
-    
-CSRF_FAILURE_VIEW = 'teacher.views.csrf_failure',
 
 # Application definition
 

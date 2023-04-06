@@ -1,1 +1,1 @@
-web: gunicorn myteacher.wsgi --log-file -
+python manage.py migrate && gunicorn myteacher.wsgi
