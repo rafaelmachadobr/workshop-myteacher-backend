@@ -1,1 +1,0 @@
-web: gunicorn myteacher.wsgi --log-file -
